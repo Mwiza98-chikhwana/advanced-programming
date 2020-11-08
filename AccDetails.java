@@ -1,11 +1,11 @@
-public class Student{
+public class AccDetails{
     private String AccountName;
-    private double AccountNumber;
+    private double[] AccountNumber;
     private String Branch;
     private Date DateCreated;
     private String AccountType;
 
-    Student(){
+    AccDetails(){
         public String setName(String name){
             this.name = name;
         }
